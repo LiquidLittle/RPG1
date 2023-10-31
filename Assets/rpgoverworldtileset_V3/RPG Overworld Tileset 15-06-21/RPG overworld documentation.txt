@@ -1,0 +1,35 @@
+Documentation as of 15/06/21:
+
+. . . . .
+
+This is a 16x16 tileset with transparency designed for use with tile editors and engines that support multi-layered tile maps. An older, legacy version with solid single layer tiles is included and if there is enough interest I will revise the single layer version some of the new tiles and features in a future update.
+
+Some of the tiles contain alpha transparent shadows. Versions of the tileset layouts without alpha transparency are provided for easier editing.
+
+If you have any queries about formatting or problems fitting the tiles together please contact me through Itch. Future updates are planned to add more terrain features and buildings.
+
+An explanation of the image files in this archive follows:
+
+. . . . .
+
+Tileset_Arranged.png
+
+These contain the entire tile set including all the animation frames for water tiles. The file is 1024x1024 pixels for optimized use in Unity and the tiles have been arranged by terrain feature to make importing in to tile editors liked Tiled easier. The layout is split in to 512x512 pixel quarters. Top left contains the basic terrain features, top right secondary terrain features like trees, roads, buildings and other structures. The bottom left quarter contains animations for water tiles.
+
+Each animated tile has a 4 frame looping animation. Some of the frames in these are duplicated but in order to keep a tidy, consistently formatted tileset I’ve left the duplicates in.
+
+. . . . .
+
+Tileset_Compressed_A.png / Tileset_Compressed_B.png
+
+Alternate layouts of the tileset with the tiles arranged in a compressed layout.
+
+. . . . .
+
+Tileset_Compressed_B_NoAnimation.png
+
+An optimised 512x512 stripped down version of the tileset without the animation frames.
+
+. . . . . 
+
+- Matthew Walkden
